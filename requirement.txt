@@ -1,0 +1,5 @@
+gradio==3.34.0
+gTTS==2.3.2
+moviepy==1.0.3
+speechrecognition==3.9.0
+googletrans==4.0.0-rc1
