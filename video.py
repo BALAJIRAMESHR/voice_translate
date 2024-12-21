@@ -146,4 +146,4 @@ gr.Interface(
                 <p>For more information, visit <a href="https://ruslanmv.com/" style="color: #004d00;">ruslanmv.com</a>.</p>
                </div>""",
     css=css,
-).launch()
+).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
