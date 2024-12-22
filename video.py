@@ -140,10 +140,5 @@ gr.Interface(
     verbose=True,
     title="Quadra Translate",
     description="Translate video files between various languages. Upload your video and process it easily!",
-    article="""<div style="text-align: center; color: #004d00;">
-                <p>Upload an MP4 file and hit submit to translate the video. Click Play/Pause to view the video. 
-                The video is saved in MP4 format.</p>
-                <p>For more information, visit <a href="https://ruslanmv.com/" style="color: #004d00;">ruslanmv.com</a>.</p>
-               </div>""",
     css=css,
 ).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
